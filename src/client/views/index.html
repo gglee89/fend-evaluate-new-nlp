@@ -7,10 +7,27 @@
 </head>
 
 <body>
-    <div class="d-flex w-100 h-100 flex-column">
-        <header></header>
-        <main></main>
-        <footer></footer>
+    <div class="d-flex w-100 h-100 flex-row">
+        <section class="d-flex flex-column section">
+            <div class="section__title">Evaluate a News Article With Natural Language Processing (NLP)</div>
+            <div class="section__body">
+                <div class="section__input-title">Copy and paste your news article into the section below.</div>
+                <textarea class="section__input-textarea" id="news-article"></textarea>
+            </div>
+            <div class="section__footer">
+                <button class="btn btn-success h-100 w-100">Evaluate</button>
+            </div>
+        </section>
+        <section class="d-flex flex-column section section--inverted">
+            <div class="section__title section__title--darktext">Results</div>
+            <div class="section__body">
+                <div class="section__input-title">Sentiment Analysis result</div>
+
+            </div>
+            <div class="section__footer section__footer--darktext">
+                Developed by Giwoo G Lee
+            </div>
+        </section>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

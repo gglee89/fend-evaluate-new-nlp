@@ -1,0 +1,60 @@
+.section {
+    flex: 1;
+
+    &--inverted {
+        background-color: #fff;
+    }
+
+    &__title {
+        align-items: center;
+        font-weight: bold;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;     
+        
+        &--darktext {
+            color: #000;
+        }
+    }
+    
+    &__body {
+        background-color: rgba(104, 98, 98, 0.33);
+        flex: 1;
+        padding: 15px 15px;
+    }
+
+    &__input-title {
+        color: #fff;
+        font-style: italic;
+
+        &--darktext {
+            color: #000;
+        }
+    }
+
+    &__input-textarea {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: calc(100% - 24px);
+        outline: none;
+        overflow: auto;
+        resize: none;
+        width: 100%;
+    }
+
+    
+    &__footer {
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+
+        &--darktext {
+            color: #000;
+            font-size: 12px;
+            text-align: right;
+            padding: 0 15px;
+        }
+    }
+
+}
