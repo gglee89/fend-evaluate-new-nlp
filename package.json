@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/server/index.js",
     "build-dev": "webpack-dev-server --config webpack.dev.js --open",
-    "build-prod": "webpack --config webpack.prod.js"
+    "build-prod": "rm -rf dist && webpack --config webpack.prod.js && npm run start"
   },
   "repository": {
     "type": "git",
@@ -42,6 +42,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "workbox-webpack-plugin": "^5.1.3"
   }
 }
