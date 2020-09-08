@@ -12,8 +12,8 @@ Evaluate news articles with NLP
 `cd` into your new folder and run:
 
 - `npm install`
-- `npm run build-dev` (for development)
-- `npm run build-prod && npm run start` (for production)
+- `npm run build-dev && npm run start-dev` (for development)
+- `npm run build-prod` (for production)
 
 ## Author
 
