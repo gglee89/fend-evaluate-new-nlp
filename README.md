@@ -1,6 +1,6 @@
 ## Visual
 
-![image](https://user-images.githubusercontent.com/16644017/92528470-d0781180-f1f6-11ea-8dfd-ad07f6b19d0d.png)
+![image](https://user-images.githubusercontent.com/16644017/92529636-d7a01f00-f1f8-11ea-9410-f204eba7e454.png)
 
 ## About this Project
 
