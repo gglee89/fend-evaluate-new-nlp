@@ -1,8 +1,18 @@
 ## About this Project
+
 Udacity's FEND Project #4  
 Evaluate news articles with NLP
 
+## Getting started
+
+`cd` into your new folder and run:
+
+- `npm install`
+- `npm run build-dev` (for development)
+- `npm run build-prod && npm run start` (for production)
+
 ## Author
-__Design & Development__  
+
+**Design & Development**  
 Giwoo G Lee  
 [Linkedin](https://linkedin.com/in/leegiwoo)
