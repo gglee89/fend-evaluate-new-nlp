@@ -1,3 +1,7 @@
+## Visual
+
+![image](https://user-images.githubusercontent.com/16644017/92528470-d0781180-f1f6-11ea-8dfd-ad07f6b19d0d.png)
+
 ## About this Project
 
 Udacity's FEND Project #4  
