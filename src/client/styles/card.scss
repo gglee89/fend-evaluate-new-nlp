@@ -1,0 +1,18 @@
+.card {
+  &__left {
+    font-weight: bold;
+    text-align: left;
+  }
+  &__right {
+    text-align: right;
+  }
+}
+
+.card-body {
+  line-break: anywhere;
+
+  &--textColor {
+    color: rgba(100, 92, 92, 0.644);
+    font-weight: bold;
+  }
+}

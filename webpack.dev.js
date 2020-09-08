@@ -32,7 +32,7 @@ module.exports = {
       protectWebpackAssets: false,
     }),
     new webpack.DefinePlugin({
-      API_BASE_URL: JSON.stringify('http://localhost:8081'),
+      API_BASE_URL: JSON.stringify('http://localhost:8080'),
     }),
   ],
 };

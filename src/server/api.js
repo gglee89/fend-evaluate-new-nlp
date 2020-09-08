@@ -13,7 +13,6 @@ module.exports.getJSON = (options, onResult) => {
   let output = '';
 
   const req = port.request(options, (res) => {
-    console.log(`${options.host} : ${res.statusCode}`);
     res.setEncoding('utf-8');
 
     res.on('data', (chunk) => {

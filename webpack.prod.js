@@ -28,5 +28,8 @@ module.exports = {
     }),
     new WorkboxPlugin.GenerateSW(),
     new MiniCssExtractPlugin({ filename: '[name].css' }),
+    new webpack.DefinePlugin({
+      API_BASE_URL: JSON.stringify('http://localhost:8080'),
+    }),
   ],
 };

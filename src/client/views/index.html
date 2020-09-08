@@ -1,45 +1,64 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-</head>
-
-<body>
+  <body>
     <div class="d-flex w-100 h-100 flex-row">
-        <section class="d-flex flex-column section">
-            <div class="section__title">Evaluate a News Article With Natural Language Processing (NLP)</div>
-            <div class="section__body">
-                <div class="section__input-title">Copy and paste your news article into the section below.</div>
-                <textarea class="section__input-textarea" id="news-article"></textarea>
-            </div>
-            <div class="section__footer">
-                <button id="news-submit" class="btn btn-success h-100 w-100">Evaluate</button>
-            </div>
-        </section>
-        <section class="d-flex flex-column section section--inverted">
-            <div class="section__title section__title--darktext">Results</div>
-            <div class="section__body">
-                <div class="section__input-title">Sentiment Analysis result</div>
-
-            </div>
-            <div class="section__footer section__footer--darktext">
-                Developed by Giwoo G Lee
-            </div>
-        </section>
+      <section class="d-flex flex-column section">
+        <div class="section__title">
+          Evaluate a News Article With Natural Language Processing (NLP)
+        </div>
+        <div class="section__body">
+          <div class="section__input-title">
+            Copy and paste your news article into the section below.
+          </div>
+          <textarea
+            class="section__input-textarea"
+            id="news-article"
+            placeholder="The tomato soup was great!"
+          ></textarea>
+        </div>
+        <div class="section__footer">
+          <button id="news-submit" class="btn btn-success h-100 w-100">
+            Evaluate
+          </button>
+        </div>
+      </section>
+      <section class="d-flex flex-column section section--inverted">
+        <div class="section__title section__title--darktext">Results</div>
+        <div class="section__body section__body--scrollableY">
+          <div class="section__input-title">Sentiment Analysis result</div>
+          <div id="accordion"></div>
+        </div>
+        <div class="section__footer section__footer--darktext">
+          Developed by Giwoo G Lee
+        </div>
+      </section>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
